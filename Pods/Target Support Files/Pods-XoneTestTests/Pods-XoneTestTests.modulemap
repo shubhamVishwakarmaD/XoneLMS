@@ -1,0 +1,6 @@
+framework module Pods_XoneTestTests {
+  umbrella header "Pods-XoneTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
