@@ -190,6 +190,7 @@
 				84228C892C9C60FC004C3936 /* Frameworks */,
 				84228C8A2C9C60FC004C3936 /* Resources */,
 				1CEBE052A40F4F6755975A02 /* [CP] Embed Pods Frameworks */,
+				84BA329B2C9D524B00DB114A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -387,6 +388,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XoneTest-XoneTestUITests/Pods-XoneTest-XoneTestUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		84BA329B2C9D524B00DB114A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/sh\n\n# Install CocoaPods using Homebrew.\n\nbrew install cocoapods\n\n# Install dependencies you manage with CocoaPods.\n\npod install\n";
 		};
 		E3E14052885BD51F76222442 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
