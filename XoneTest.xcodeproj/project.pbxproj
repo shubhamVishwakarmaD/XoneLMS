@@ -19,6 +19,7 @@
 		84228CB12C9C60FF004C3936 /* XoneTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84228CB02C9C60FF004C3936 /* XoneTestUITests.swift */; };
 		84228CB32C9C60FF004C3936 /* XoneTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84228CB22C9C60FF004C3936 /* XoneTestUITestsLaunchTests.swift */; };
 		84BA329A2C9D4D9B00DB114A /* ci_post_clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = 84BA32992C9D4D9B00DB114A /* ci_post_clone.sh */; };
+		84BA329D2C9D532300DB114A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BA329C2C9D532300DB114A /* Alamofire.framework */; };
 		CA578ECA178B6A14AB8A776E /* Pods_XoneTest_XoneTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C26234D998FE52A7C10553D /* Pods_XoneTest_XoneTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		84228CB02C9C60FF004C3936 /* XoneTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XoneTestUITests.swift; sourceTree = "<group>"; };
 		84228CB22C9C60FF004C3936 /* XoneTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XoneTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		84BA32992C9D4D9B00DB114A /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
+		84BA329C2C9D532300DB114A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C26234D998FE52A7C10553D /* Pods_XoneTest_XoneTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XoneTest_XoneTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3B6139C1981747AF712937 /* Pods-XoneTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XoneTest.release.xcconfig"; path = "Target Support Files/Pods-XoneTest/Pods-XoneTest.release.xcconfig"; sourceTree = "<group>"; };
 		D3D1528B39E4B09B97E7C597 /* Pods-XoneTest-XoneTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XoneTest-XoneTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-XoneTest-XoneTestUITests/Pods-XoneTest-XoneTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BA329D2C9D532300DB114A /* Alamofire.framework in Frameworks */,
 				2F2C16FDF7BD5D6D30FC49F7 /* Pods_XoneTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +99,7 @@
 		7CB28EFF35A125CE654E07FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84BA329C2C9D532300DB114A /* Alamofire.framework */,
 				F1B00AE3613F0C0BEDAA85F8 /* Pods_XoneTest.framework */,
 				9C26234D998FE52A7C10553D /* Pods_XoneTest_XoneTestUITests.framework */,
 				1D482EF8E3272AF46A28E2CF /* Pods_XoneTestTests.framework */,
