@@ -335,7 +335,7 @@
 		};
 		1CEBE052A40F4F6755975A02 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -345,10 +345,9 @@
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XoneTest/Pods-XoneTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XoneTest/Pods-XoneTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		2579AECCBA6AD13240848D39 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
