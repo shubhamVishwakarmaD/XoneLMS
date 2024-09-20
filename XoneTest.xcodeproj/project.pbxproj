@@ -18,6 +18,7 @@
 		84228CA72C9C60FF004C3936 /* XoneTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84228CA62C9C60FF004C3936 /* XoneTestTests.swift */; };
 		84228CB12C9C60FF004C3936 /* XoneTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84228CB02C9C60FF004C3936 /* XoneTestUITests.swift */; };
 		84228CB32C9C60FF004C3936 /* XoneTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84228CB22C9C60FF004C3936 /* XoneTestUITestsLaunchTests.swift */; };
+		84BA329A2C9D4D9B00DB114A /* ci_post_clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = 84BA32992C9D4D9B00DB114A /* ci_post_clone.sh */; };
 		CA578ECA178B6A14AB8A776E /* Pods_XoneTest_XoneTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C26234D998FE52A7C10553D /* Pods_XoneTest_XoneTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		84228CAC2C9C60FF004C3936 /* XoneTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XoneTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84228CB02C9C60FF004C3936 /* XoneTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XoneTestUITests.swift; sourceTree = "<group>"; };
 		84228CB22C9C60FF004C3936 /* XoneTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XoneTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84BA32992C9D4D9B00DB114A /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		9C26234D998FE52A7C10553D /* Pods_XoneTest_XoneTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XoneTest_XoneTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3B6139C1981747AF712937 /* Pods-XoneTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XoneTest.release.xcconfig"; path = "Target Support Files/Pods-XoneTest/Pods-XoneTest.release.xcconfig"; sourceTree = "<group>"; };
 		D3D1528B39E4B09B97E7C597 /* Pods-XoneTest-XoneTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XoneTest-XoneTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-XoneTest-XoneTestUITests/Pods-XoneTest-XoneTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,13 +113,13 @@
 				6ADD2AF669F18550EFC4F1F2 /* Pods-XoneTestTests.debug.xcconfig */,
 				2B7F13D26DC6F899244D610D /* Pods-XoneTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		84228C832C9C60FC004C3936 = {
 			isa = PBXGroup;
 			children = (
+				84BA32982C9D4D7900DB114A /* ci_scripts */,
 				84228C8E2C9C60FC004C3936 /* XoneTest */,
 				84228CA52C9C60FF004C3936 /* XoneTestTests */,
 				84228CAF2C9C60FF004C3936 /* XoneTestUITests */,
@@ -166,6 +168,14 @@
 				84228CB22C9C60FF004C3936 /* XoneTestUITestsLaunchTests.swift */,
 			);
 			path = XoneTestUITests;
+			sourceTree = "<group>";
+		};
+		84BA32982C9D4D7900DB114A /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				84BA32992C9D4D9B00DB114A /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +289,7 @@
 			files = (
 				84228C992C9C60FE004C3936 /* Assets.xcassets in Resources */,
 				84228C9C2C9C60FE004C3936 /* Base in Resources */,
+				84BA329A2C9D4D9B00DB114A /* ci_post_clone.sh in Resources */,
 				84228C972C9C60FC004C3936 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
