@@ -146,8 +146,6 @@
 			);
 			name = XoneTest;
 			packageProductDependencies = (
-				84C3D6482C9D6D520052359C /* Alamofire */,
-				84C3D6492C9D6D520052359C /* AlamofireDynamic */,
 			);
 			productName = XoneTest;
 			productReference = 84228C8C2C9C60FC004C3936 /* XoneTest.app */;
@@ -222,7 +220,6 @@
 			);
 			mainGroup = 84228C832C9C60FC004C3936;
 			packageReferences = (
-				84C3D6472C9D6D520052359C /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 84228C8D2C9C60FC004C3936 /* Products */;
 			projectDirPath = "";
@@ -618,31 +615,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		84C3D6472C9D6D520052359C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = versionRange;
-				maximumVersion = 6.0.0;
-				minimumVersion = 5.9.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		84C3D6482C9D6D520052359C /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 84C3D6472C9D6D520052359C /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		84C3D6492C9D6D520052359C /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 84C3D6472C9D6D520052359C /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84228C842C9C60FC004C3936 /* Project object */;
 }
